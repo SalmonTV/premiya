@@ -1,0 +1,563 @@
+@font-face {
+    font-family: 'HouschkaRoundedAlt 3';
+    src: url('../fonts/HouschkaRoundedAlt-Regular10.eot');
+    src: local('HouschkaRoundedAlt Regular 10'), local('HouschkaRoundedAlt-Regular10'),
+        url('../fonts/HouschkaRoundedAlt-Regular10.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular10.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular10.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 2';
+    src: url('../fonts/HouschkaRoundedAlt-Regular11.eot');
+    src: local('HouschkaRoundedAlt Regular 11'), local('HouschkaRoundedAlt-Regular11'),
+        url('../fonts/HouschkaRoundedAlt-Regular11.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular11.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular11.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt';
+    src: url('../fonts/HouschkaRoundedAlt-Regular12.eot');
+    src: local('HouschkaRoundedAlt Regular 12'), local('HouschkaRoundedAlt-Regular12'),
+        url('../fonts/HouschkaRoundedAlt-Regular12.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular12.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular12.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular12.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 7';
+    src: url('../fonts/HouschkaRoundedAlt-Regular6.eot');
+    src: local('HouschkaRoundedAlt Regular 6'), local('HouschkaRoundedAlt-Regular6'),
+        url('../fonts/HouschkaRoundedAlt-Regular6.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular6.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular6.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular6.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 9';
+    src: url('../fonts/HouschkaRoundedAlt-Regular4.eot');
+    src: local('HouschkaRoundedAlt Regular 4'), local('HouschkaRoundedAlt-Regular4'),
+        url('../fonts/HouschkaRoundedAlt-Regular4.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular4.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular4.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 4';
+    src: url('../fonts/HouschkaRoundedAlt-Regular9.eot');
+    src: local('HouschkaRoundedAlt Regular 9'), local('HouschkaRoundedAlt-Regular9'),
+        url('../fonts/HouschkaRoundedAlt-Regular9.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular9.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular9.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular9.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 5';
+    src: url('../fonts/HouschkaRoundedAlt-Regular8.eot');
+    src: local('HouschkaRoundedAlt Regular 8'), local('HouschkaRoundedAlt-Regular8'),
+        url('../fonts/HouschkaRoundedAlt-Regular8.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular8.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular8.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular8.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 8';
+    src: url('../fonts/HouschkaRoundedAlt-Regular5.eot');
+    src: local('HouschkaRoundedAlt Regular 5'), local('HouschkaRoundedAlt-Regular5'),
+        url('../fonts/HouschkaRoundedAlt-Regular5.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular5.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular5.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular5.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 6';
+    src: url('../fonts/HouschkaRoundedAlt-Regular7.eot');
+    src: local('HouschkaRoundedAlt Regular 7'), local('HouschkaRoundedAlt-Regular7'),
+        url('../fonts/HouschkaRoundedAlt-Regular7.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular7.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular7.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 10';
+    src: url('../fonts/HouschkaRoundedAlt-Regular3.eot');
+    src: local('HouschkaRoundedAlt Regular 3'), local('HouschkaRoundedAlt-Regular3'),
+        url('../fonts/HouschkaRoundedAlt-Regular3.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular3.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular3.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 11';
+    src: url('../fonts/HouschkaRoundedAlt-Regular2.eot');
+    src: local('HouschkaRoundedAlt Regular 2'), local('HouschkaRoundedAlt-Regular2'),
+        url('../fonts/HouschkaRoundedAlt-Regular2.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular2.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular2.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt';
+    src: url('../fonts/HouschkaRoundedAlt-MediumItalic.eot');
+    src: local('HouschkaRoundedAlt-MediumItalic'),
+        url('../fonts/HouschkaRoundedAlt-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-MediumItalic.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-MediumItalic.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'HouschkaRoundedAlt 3';
+}
+
+
+body {
+    background: #FBF4F5;
+    margin: 0;
+}
+
+p {
+    font-family: 'HouschkaRoundedAlt 3';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'HouschkaRoundedAlt 9';
+}
+
+._slider-section {
+    background: #912F46;
+    border-radius: 0 0 50px 50px;
+    padding-top: 30px;
+    position: relative;
+}
+
+._slider-pattern {
+    width: 45%;
+    position: absolute;
+    margin-bottom: 0px;
+    border-radius: 0 0 50px 0;
+    right: 0;
+    bottom: 0;
+}
+
+._slider {
+}
+
+._slider-item {
+    display: flex;
+    grid-gap: 74px;
+    align-items: center;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+._slider-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+._slider-item__date {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+
+._slider-item__title {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    font-family: 'HouschkaRoundedAlt 9';
+    margin-bottom: 30px;
+}
+
+._slider-item__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+._slider-item__button {
+    font-family: 'HouschkaRoundedAlt 9';
+    width: 16rem;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px 0;
+    background: #FFFFFF;
+    border-radius: 12px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+._slider-item__button:hover {
+    opacity: 0.7;
+}
+
+._slider-item__image {
+}
+
+._slider-item__image img {
+}
+
+._loyal-section {
+    background: #fff;
+    border-radius: 0 0 50px 50px;
+    padding-top: 30px;
+    position: relative;
+}
+
+._loyal {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+._loyal-item {
+    display: flex;
+    grid-gap: 20px;
+    align-items: center;
+    color: black;
+    padding-top: 50px;
+    /* padding-bottom: 50px; */
+    justify-content: space-between;
+}
+
+._loyal-item__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+._loyal-item__description {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+._loyal-item__title {
+    font-family: 'HouschkaRoundedAlt 9';
+    font-size: 56px;
+    line-height: 65px;
+}
+
+._loyal-item__image {
+    /* width: 350px; */
+}
+
+._loyal-item__content-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 36px;
+}
+
+._loyal-item__card {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px #e8ebed;
+    border: 0;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+}
+
+._loyal-item__card-container {
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+}
+
+._loyal-item__card-icon img{
+    width: 90px;
+}
+
+._loyal-item__card-title {
+    font-family: 'HouschkaRoundedAlt 9';
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+    text-align: center;
+}
+
+._loyal-item__card-description {
+    font-family: 'HouschkaRoundedAlt 9';
+    font-size: 20px;
+    line-height: 29px;
+    background: #F5F5F5;
+    padding: 15px 20px;
+    border-radius: 15px;
+    flex:1 1 auto;
+}
+
+._loyal-footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 55px;
+}
+
+._loyal-footer__description {
+    font-family: 'HouschkaRoundedAlt 7';
+    font-size: 20px;
+    line-height: 26px;
+}
+
+._app-section {
+    background: #CA6982;
+}
+
+._app {
+    display: flex;
+    align-items: center;
+}
+
+._app-item {
+
+}
+
+._app-item__title {
+    font-family: 'HouschkaRoundedAlt 9';
+    color: white;
+    font-size: 56px;
+    line-height: 65px;
+    margin-bottom: 60px;
+}
+
+._app-item__text {
+    font-family: 'HouschkaRoundedAlt 3';
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+._app-item__buttons {
+    display: flex;
+    grid-gap: 20px;
+}
+
+._app-item__buttons a {
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+._app-item__buttons a:hover {
+    opacity: 0.7;
+}
+
+._app-item__buttons img {
+    height: 50px;
+}
+
+._app-item__image img{
+    width: 387px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mobile-menu-close {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+._container {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+._header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+    background-color: #912f46;
+}
+
+.mobile-menu-icon {
+    display: none;
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+._header ._container {
+    display: flex;
+    grid-gap: 16px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+._logo {
+    display: block;
+}
+
+._logo__image {
+}
+
+.mobile-nav {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    /*display: flex;*/
+}
+
+._header ._nav {
+    margin-left: auto;
+    display: flex;
+    grid-gap: 20px;
+}
+
+._nav__item {
+}
+
+._nav__link {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+._nav__link:hover {
+    opacity: 0.7;
+}
+
+._nav__link--active {
+}
+
+@media (max-width: 1200px) {
+    ._slider-item__image img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    ._slider-item__image img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    ._slider-item {
+        flex-direction: column;
+    }
+
+
+    .mobile-menu-icon {
+        display: flex;
+    }
+
+    ._header ._nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(145, 47, 70, 0.95);
+        z-index: 9999;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-nav--active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    ._nav--mobile ._nav__link {
+        font-size: 24px;
+    }
+}

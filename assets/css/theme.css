@@ -1,0 +1,770 @@
+@font-face {
+    font-family: 'HouschkaRoundedAlt 3';
+    src: url('../fonts/HouschkaRoundedAlt-Regular10.eot');
+    src: local('HouschkaRoundedAlt Regular 10'), local('HouschkaRoundedAlt-Regular10'),
+        url('../fonts/HouschkaRoundedAlt-Regular10.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular10.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular10.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 2';
+    src: url('../fonts/HouschkaRoundedAlt-Regular11.eot');
+    src: local('HouschkaRoundedAlt Regular 11'), local('HouschkaRoundedAlt-Regular11'),
+        url('../fonts/HouschkaRoundedAlt-Regular11.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular11.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular11.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular11.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt';
+    src: url('../fonts/HouschkaRoundedAlt-Regular12.eot');
+    src: local('HouschkaRoundedAlt Regular 12'), local('HouschkaRoundedAlt-Regular12'),
+        url('../fonts/HouschkaRoundedAlt-Regular12.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular12.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular12.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular12.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 7';
+    src: url('../fonts/HouschkaRoundedAlt-Regular6.eot');
+    src: local('HouschkaRoundedAlt Regular 6'), local('HouschkaRoundedAlt-Regular6'),
+        url('../fonts/HouschkaRoundedAlt-Regular6.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular6.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular6.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular6.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 9';
+    src: url('../fonts/HouschkaRoundedAlt-Regular4.eot');
+    src: local('HouschkaRoundedAlt Regular 4'), local('HouschkaRoundedAlt-Regular4'),
+        url('../fonts/HouschkaRoundedAlt-Regular4.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular4.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular4.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 4';
+    src: url('../fonts/HouschkaRoundedAlt-Regular9.eot');
+    src: local('HouschkaRoundedAlt Regular 9'), local('HouschkaRoundedAlt-Regular9'),
+        url('../fonts/HouschkaRoundedAlt-Regular9.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular9.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular9.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular9.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 5';
+    src: url('../fonts/HouschkaRoundedAlt-Regular8.eot');
+    src: local('HouschkaRoundedAlt Regular 8'), local('HouschkaRoundedAlt-Regular8'),
+        url('../fonts/HouschkaRoundedAlt-Regular8.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular8.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular8.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular8.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 8';
+    src: url('../fonts/HouschkaRoundedAlt-Regular5.eot');
+    src: local('HouschkaRoundedAlt Regular 5'), local('HouschkaRoundedAlt-Regular5'),
+        url('../fonts/HouschkaRoundedAlt-Regular5.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular5.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular5.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular5.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 6';
+    src: url('../fonts/HouschkaRoundedAlt-Regular7.eot');
+    src: local('HouschkaRoundedAlt Regular 7'), local('HouschkaRoundedAlt-Regular7'),
+        url('../fonts/HouschkaRoundedAlt-Regular7.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular7.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular7.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 10';
+    src: url('../fonts/HouschkaRoundedAlt-Regular3.eot');
+    src: local('HouschkaRoundedAlt Regular 3'), local('HouschkaRoundedAlt-Regular3'),
+        url('../fonts/HouschkaRoundedAlt-Regular3.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular3.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular3.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt 11';
+    src: url('../fonts/HouschkaRoundedAlt-Regular2.eot');
+    src: local('HouschkaRoundedAlt Regular 2'), local('HouschkaRoundedAlt-Regular2'),
+        url('../fonts/HouschkaRoundedAlt-Regular2.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-Regular2.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-Regular2.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-Regular2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HouschkaRoundedAlt';
+    src: url('../fonts/HouschkaRoundedAlt-MediumItalic.eot');
+    src: local('HouschkaRoundedAlt-MediumItalic'),
+        url('../fonts/HouschkaRoundedAlt-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HouschkaRoundedAlt-MediumItalic.woff2') format('woff2'),
+        url('../fonts/HouschkaRoundedAlt-MediumItalic.woff') format('woff'),
+        url('../fonts/HouschkaRoundedAlt-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'HouschkaRoundedAlt 3';
+}
+
+body {
+    background: #FBF4F5;
+}
+
+p {
+    font-family: 'HouschkaRoundedAlt 3';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'HouschkaRoundedAlt 9';
+}
+
+.row {
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 12px;
+}
+
+.border-btm {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.rounded-15 {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.bg-white {
+    background: #ffffff;
+    border-radius: 0 0 50px 50px;
+    position: relative;
+    top: -50px;
+    z-index: 99;
+}
+
+.bg-second {
+    background-color: #F5F5F5;
+}
+
+.bg-danger-light {
+    background: #CA6982;
+    border-radius: 0 0 50px 50px;
+    position: relative;
+    top: -100px;
+}
+
+.bg-danger-dark {
+    background-color: #912F46;
+    position: relative;
+    z-index: 100;
+}
+
+.rnd {
+    border-radius: 0 0 50px 50px;
+}
+
+.rounded-pill {
+    border-radius: 50rem!important;
+}
+    
+.bg-danger {
+    background-color: #dc3545!important;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+}
+
+.nav {
+    align-items: center;
+}
+
+.nav-link, .nav-link:focus {
+    color: white;
+    padding: 15px;
+    font-family: 'HouschkaRoundedAlt 7';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav-link:hover {
+    color: #A1C441;
+}
+
+.nav-item:last-child .nav-link {
+    padding-right: 0;
+}
+
+.header-absolute-top {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.round-bottom {
+    -webkit-border-bottom-right-radius: 50px;
+    -webkit-border-bottom-left-radius: 50px;
+    -moz-border-radius-bottomright: 50px;
+    -moz-border-radius-bottomleft: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+._back-pattern {
+    margin-bottom: 0px;
+    z-index: -1;
+    border-radius: 0 0 50px 0;
+    right: 0;
+    bottom: 0;
+}
+
+.pt-10 {
+    padding-top: 10%;
+}
+
+.text-bold {
+    font-family: 'HouschkaRoundedAlt 7';
+    text-align: center;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 10px;
+    /* left: 0; */
+    width: auto;
+    position: relative;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 15px;
+    background: #ffffff;
+    opacity: 30px;
+}
+
+.swiper-pagination-bullet-active {
+    border-radius: 15px;
+    width: 50px;
+}
+
+.navbar {
+    background-color: #912F46;
+    position: relative;
+    padding: 15px 0;
+    display: flex;
+}
+
+.links {
+    display: none;
+}
+  
+.heading a:nth-child(2) {
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 7px;
+    margin-left: 150px;
+}
+  
+.heading a i {
+    color: green;
+    padding: 10px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+  
+.heading a i:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+  
+.links {
+    background-color: rgb(190, 196, 190);
+}
+  
+.links a {
+    color: green;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+  
+.links a:hover {
+    background-color: green;
+    color: white;
+}
+
+
+@media (min-width: 767px) {
+
+    .logo {
+        width: 250px;
+    }
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 95%;
+        position: relative;
+    }
+
+    .btn {
+        width: 50%;
+    }
+
+    .btn-slider {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-inform {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    .text-inform::before {
+        border: 5px solid darkblue;
+    }
+
+    .title-slider {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 106px;
+        line-height: 118px;
+        text-align: center;
+    }
+
+    .text-slider {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+    } 
+
+    .old-price-label {
+        position: relative;
+        font-size: 18px;
+        color: #DA879B;
+    }
+    
+    .old-price-label:before {
+        border-bottom: 2px solid #da879b;
+        position: absolute;
+        content: "";
+        width: 70%;
+        height: 48%;
+        transform: rotate(340deg);
+    }
+
+    .label-lg-red {
+        right: 20%;
+        top: 30%;
+        padding: 0.35em 0.65em;
+        color: #fff;
+        background: #D50032;
+        border-radius: 50px;
+        position: absolute;
+        font-size: 30px;
+        display: grid;
+        justify-items: center;
+    }
+
+    .product-item-img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        -webkit-text-size-adjust: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-loyal {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 51px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .text-loyal::before {
+        content: '';
+        position: absolute;
+        top: -40px;
+        left: 372px;
+        width: 98px;
+        height: 104px; 
+        background: url(../img/loyal/green_cyrcles.svg) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .text-mobile {
+        font-size: 35px;
+        line-height: 48px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .text-mobile::before {
+        content: '';
+        position: absolute;
+        top: -78px;
+        left: -71px;
+        width: 161px;
+        height: 184px;
+        background: url(../img/red_cyrcles.svg) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .img-loyal {
+        max-width: 80%;
+    }
+
+    .text-btn-slider {
+        font-family: 'HouschkaRoundedAlt 9';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 24px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .card {
+        background: #FFFFFF;
+        box-shadow: 0px 8px 30px #E8EBED;
+        border: 0;
+        border-radius: 30px;
+        height: 100%;
+    }
+
+    .card-title {
+        font-size: 22px;
+        line-height: 16px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .card-body {
+        padding: 25px;
+    }
+
+    .card-icon {
+        width: 70px;
+    }
+
+    .card-img {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 120px;
+        margin-bottom: 25px;
+    }
+
+    .card-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .prod-title {
+        font-family: 'HouschkaRoundedAlt 9';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 36px;
+        margin: 0;
+    }
+
+    .card-price {
+        color: #912F46;
+        font-size: 45px;
+        line-height: 30px;
+    }
+
+}
+
+@media (min-width: 991px) {
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 95%;
+        position: relative;
+    }
+
+    .text-inform {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    .title-slider {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 64px;
+        text-align: left;
+    }
+
+    .text-slider {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    .btn-slider {
+        display: flex;
+        justify-content: left;
+    }
+
+    .text-btn-slider {
+        font-family: 'HouschkaRoundedAlt 9';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .card-icon {
+        width: 70px;
+    }
+
+    .text-loyal {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .text-loyal::before {
+        content: '';
+        position: absolute;
+        top: -37px;
+        left: 310px;
+        width: 84px;
+        height: 90px;
+        background: url(../img/loyal/green_cyrcles.svg) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+ }
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1100px;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .text-inform {
+        font-weight: 400;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .title-slider {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 56px;
+        text-align: left;
+    }
+
+    .text-slider {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: left;
+    }
+
+    .btn-slider {
+        display: flex;
+        justify-content: left;
+    }
+
+    .label-lg-red {
+        right: 8%;
+        top: 25%;
+        display: inline-block;
+        padding: 0.35em 0.65em;
+        color: #fff;
+        background: #D50032;
+        border-radius: 50px;
+        position: absolute;
+        font-size: 30px;
+        display: grid;
+        justify-items: center;
+    }
+
+    .product-item-img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        -webkit-text-size-adjust: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .text-btn-slider {
+        font-family: 'HouschkaRoundedAlt 9';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .text-mobile {
+        font-size: 52px;
+        line-height: 65px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .text-mobile::before {
+        content: '';
+        position: absolute;
+        top: -146px;
+        left: -135px;
+        width: 253px;
+        height: 289px;
+        background: url(../img/red_cyrcles.svg) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .text-loyal {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 65px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .text-loyal::before {
+        content: '';
+        position: absolute;
+        top: -47px;
+        left: 433px;
+        width: 117px;
+        height: 125px;
+        background: url(../img/loyal/green_cyrcles.svg) no-repeat center;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .card {
+        background: #FFFFFF;
+        box-shadow: 0px 8px 30px #E8EBED;
+        border: 0;
+        border-radius: 30px;
+    }
+
+    .card-title {
+        font-size: 25px;
+        line-height: 45px;
+        margin: 0;
+    }
+
+    .card-price {
+        color: #912F46;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .card-body {
+        padding: 25px;
+    }
+
+    .card-icon {
+        width: 70px;
+    }
+
+    .prod-title {
+        font-family: 'HouschkaRoundedAlt 9';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        margin: 0;
+    }
+}
