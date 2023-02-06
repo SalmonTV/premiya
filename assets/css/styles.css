@@ -169,6 +169,31 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'HouschkaRoundedAlt 9';
 }
 
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    display: flex;
+    bottom: 45px;
+    left: 0;
+    width: 100%;
+}
+
+.swiper-button-next {
+    right: 0px;
+}
+
+.swiper-button-prev {
+    right: 60px;
+}
+
+.swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 0.3);
+}
+ 
+.swiper-pagination-bullet-active {
+    background: white;
+    border-radius: 15px;
+    width: 50px;
+}
+
 .slider-section {
     background: #912F46;
     border-radius: 0 0 50px 50px;
@@ -194,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     color: #fff;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .slider-item__content {
@@ -297,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 450px;
     width: 117px;
     height: 125px;
-    background: url(../img/loyal/green_cyrcles.svg) no-repeat center;
+    background: url(../img/svg/green_cyrcles.svg) no-repeat center;
     background-size: cover;
     z-index: -1;
 }
@@ -398,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
     left: -135px;
     width: 253px;
     height: 289px;
-    background: url(../img/loyal/red_cyrcles.svg) no-repeat center;
+    background: url(../img/svg/red_cyrcles.svg) no-repeat center;
     background-size: cover;
     z-index: -1;
 }
@@ -431,6 +456,92 @@ h1, h2, h3, h4, h5, h6 {
 
 .app-item__image img{
     width: 387px;
+}
+
+.products {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.products-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.arrows {
+    display: flex;
+    grid-gap: 15px;
+}
+
+.arrows img{
+    transition: opacity 0.3s;
+}
+
+.arrows img:hover {
+    opacity: 0.7;
+}
+
+.cards {
+    display: flex;
+    grid-gap: 20px;
+}
+
+.cards-item {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px #e8ebed;
+    border: 0;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.cards-item__badge {
+    font-family: 'HouschkaRoundedAlt 5';
+    font-size: 18px;
+    line-height: 1;
+    vertical-align: baseline;
+    color: white;
+    background: #A1C441;
+    padding: 0.4rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cards-item__image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-item__image img{
+    max-width: 100%;
+    height: auto;
+    margin: 25px;
+}
+
+.cards-item__title {
+    font-family: 'HouschkaRoundedAlt 5';
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 1rem;
+}
+
+.cards-item__old-price {
+    font-family: 'HouschkaRoundedAlt 3';
+    color: #8D929A;
+    font-size: 21px;
+    line-height: 30px;
+    text-decoration: line-through;
+}
+
+.cards-item__price {
+    font-family: 'HouschkaRoundedAlt 5';
+    color: #912F46;
+    font-size: 27px;
+    line-height: 29px;
 }
 
 html {

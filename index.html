@@ -15,7 +15,7 @@
 
   <div class="mobile-nav" id="mobile-nav">
     <button class="mobile-menu-close" id="mobile-menu-close-button">
-      <img src="assets/img/menu.svg" alt="Close" />
+      <img src="assets/img/svg/menu.svg" alt="Close" />
     </button>
     <ul class="nav _nav--mobile">
       <li class="nav__item"><a class="nav__link _nav__link--active" href="#">О программе</a></li>
@@ -48,18 +48,53 @@
     <img class="slider-pattern" src="assets/img/svg/slider/pattern.svg" alt="">
     <div class="container">
       <div class="slider">
-        <div class="slider-item">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slider-item">
+                <div class="slider-item__content">
+                  <div class="slider-item__date">с 6 сентября по 15 сентября</div>
+                  <h1 class="slider-item__title">В самом расцвете кожуры!</h1>
+                  <div class="slider-item__text">Узнайте как бананы сохраняют свою свежесть после длительного путешествия из тропиков в Россию</div>
+                  <a href="#" class="slider-item__button">Подробнее</a>
+                </div>
+                <div class="slider-item__image">
+                  <img src="assets/img/svg/slider/banana.svg" alt="Banana" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider-item">
+                <div class="slider-item__content">
+                  <div class="slider-item__date">с 6 сентября по 15 сентября</div>
+                  <h1 class="slider-item__title">В самом расцвете кожуры!</h1>
+                  <div class="slider-item__text">Узнайте как бананы сохраняют свою свежесть после длительного путешествия из тропиков в Россию</div>
+                  <a href="#" class="slider-item__button">Подробнее</a>
+                </div>
+                <div class="slider-item__image">
+                  <img src="assets/img/svg/slider/banana.svg" alt="Banana" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+        <!-- <div class="slider-item">
           <div class="slider-item__content">
             <div class="slider-item__date">с 6 сентября по 15 сентября</div>
-            <div class="slider-item__title">В самом расцвете кожуры!</div>
+            <h1 class="slider-item__title">В самом расцвете кожуры!</h1>
             <div class="slider-item__text">Узнайте как бананы сохраняют свою свежесть после длительного путешествия из тропиков в Россию</div>
             <a href="#" class="slider-item__button">Подробнее</a>
           </div>
           <div class="slider-item__image">
             <img src="assets/img/svg/slider/banana.svg" alt="Banana" />
           </div>
-        </div>
-      </div>
+        </div> -->
+
     </div>
   </section>
 
@@ -71,7 +106,7 @@
         </div>
         <div class="loyal-item">
           <div class="loyal-item__content">
-            <div class="loyal-item__title">Больше покупаешь, больше премии получаешь!</div>
+            <h2 class="loyal-item__title">Больше покупаешь, больше премии получаешь!</h2>
           </div>
           <div class="loyal-item__image">
             <img src="assets/img/svg/loyal/exchange.svg" alt="exchange">
@@ -131,7 +166,7 @@
     <div class="container">
       <div class="app">
         <div class="app-item__content">
-          <div class="app-item__title">Виртуальная карта в&nbsp;твоем телефоне</div>
+          <h3 class="app-item__title">Виртуальная карта в&nbsp;твоем телефоне</h3>
           <div class="app-item__text">Скачивай мобильное приложение</div>
           <div class="app-item__buttons">
             <a href='https://apps.apple.com/ru/app/премия-программа-лояльности/id1490568015'>
@@ -150,166 +185,128 @@
     </div>
   </section>
 
-<!-- 
-  <section class="bg-danger-light text-white">
-   <div class="container pt-5">
-     <div class="row pt-5 align-items-center justify-content-between">
-       <div class="col-12 col-md-6 col-lg-6">
-         <h3 class="display-5 text-mobile">Виртуальная карта в&nbsp;твоем телефоне</h3>
-       </div>
-       <div class="col-12 col-md-6 col-lg-6">
-         <img src="assets/img/mobile_qr.png" style="max-width: 80%;">
-       </div>
-     </div>
-     <br><br><br><br><br><br><br><br><br><br><br><br>
-   </div>
-  </section> -->
+  <section class="products-section">
+    <div class="container">
+      <div class="products">
 
-  <!--<section>-->
-  <!--  <div class="container pt-5" style="position: relative;top: -380px;">-->
-  <!--    <img src="assets/img/mobile_loyal.png" style="max-width: 100%;">-->
+        <div class="products-content">
+          <div class="porducts-logo">
+            <img src="assets/img/svg/logo/yar.svg" alt="">
+          </div>
+          <div class="arrows">
+            <img src="assets/img/svg/slider/left.svg" alt="">
+            <img src="assets/img/svg/slider/right.svg" alt="">
+          </div>
+        </div>
 
-  <!--    <div class="row mt-5">-->
+        <div class="products-content">
+          <div class="cards">
 
-  <!--      <div class="col-12 col-md-6 col-lg-3 mb-4">-->
-  <!--        <div class="card card-product">-->
-  <!--          <div class="card-body">-->
-  <!--            <div class="text-center position-relative">-->
-  <!--              <div class=" position-absolute top-0 start-0">-->
-  <!--                <span class="badge bg-success">Скидка -13%</span>-->
-  <!--              </div>-->
+            <div class="cards-item">
+              <div class="cards-item__image">
+                <div class="cards-item__badge">Скидка -13%</div>
+                <img src="assets/img/products/1.png" alt="">
+              </div>
+              <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+              <div class="cards-item__old-price">219,99 ₽</div>
+              <div class="cards-item__price">99,99 ₽</div>
+            </div>
 
-  <!--              <a href="#!" tabindex="-1"><img src="assets/img/products/0.png" alt="" class="mb-3 img-fluid"></a>-->
+            <div class="cards-item">
+              <div class="cards-item__image">
+                <div class="cards-item__badge">Скидка -13%</div>
+                <img src="assets/img/products/1.png" alt="">
+              </div>
+              <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+              <div class="cards-item__old-price">219,99 ₽</div>
+              <div class="cards-item__price">99,99 ₽</div>
+            </div>
 
-  <!--            </div>-->
+            <div class="cards-item">
+              <div class="cards-item__image">
+                <div class="cards-item__badge">Скидка -13%</div>
+                <img src="assets/img/products/2.png" alt="">
+              </div>
+              <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+              <div class="cards-item__old-price">219,99 ₽</div>
+              <div class="cards-item__price">99,99 ₽</div>
+            </div>
 
-  <!--            <h2 class="prod-title">-->
-  <!--              ВАФЛИ ВЕНСКИЕ С АБРИКОСОМ 100Г АКУЛЬЧЕВ-->
-  <!--            </h2>-->
+            <div class="cards-item">
+              <div class="cards-item__image">
+                <div class="cards-item__badge">Скидка -13%</div>
+                <img src="assets/img/products/3.png" alt="">
+              </div>
+              <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+              <div class="cards-item__old-price">219,99 ₽</div>
+              <div class="cards-item__price">99,99 ₽</div>
+            </div>
 
-  <!--            <div class="d-flex justify-content-between align-items-center mt-3">-->
-  <!--              <div>-->
-  <!--                <span class="card-price">99,99 ₽</span>-->
-  <!--              </div>-->
-  <!--            </div>-->
+          </div>
+        </div>
+      </div>
 
-  <!--          </div>-->
-  <!--        </div>-->
-  <!--      </div>-->
+      <div class="products">
 
-  <!--      <div class="col-12 col-md-6 col-lg-3 mb-4">-->
-  <!--        <div class="card card-product">-->
-  <!--          <div class="card-body">-->
-  <!--            <div class="text-center position-relative">-->
-  <!--              &lt;!&ndash; badge &ndash;&gt;-->
-  <!--              <div class=" position-absolute top-0 start-0">-->
-  <!--                <span class="badge bg-success">Скидка -13%</span>-->
-  <!--              </div>-->
-  <!--              &lt;!&ndash; img &ndash;&gt;-->
-  <!--              <a href="#!" tabindex="-1"><img src="assets/img/products/1.png" alt="" class="mb-3 img-fluid"></a>-->
-  <!--              &lt;!&ndash; action btn &ndash;&gt;-->
-  <!--              <div class="card-product-action">-->
-  <!--                <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal" tabindex="-1"><i-->
-  <!--                  class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View"-->
-  <!--                  data-bs-original-title="Quick View"></i></a>-->
-  <!--                <a href="shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist"-->
-  <!--                   data-bs-original-title="Wishlist" tabindex="-1"><i class="bi bi-heart"></i></a>-->
-  <!--                <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare"-->
-  <!--                   data-bs-original-title="Compare" tabindex="-1"><i class="bi bi-arrow-left-right"></i></a>-->
-  <!--              </div>-->
-  <!--            </div>-->
+        <div class="products-content">
+          <div class="porducts-logo">
+            <img src="assets/img/svg/logo/baton.svg" alt="">
+          </div>
+          <div class="arrows">
+            <img src="assets/img/svg/slider/left.svg" alt="">
+            <img src="assets/img/svg/slider/right.svg" alt="">
+          </div>
+        </div>
 
-  <!--            <h2 class="prod-title">-->
-  <!--              Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г-->
-  <!--            </h2>-->
+        <div class="products-content">
+          <div class="cards">
 
-  <!--            <div class="d-flex justify-content-between align-items-center mt-3">-->
-  <!--              <div>-->
-  <!--                <span class="card-price">99,99 ₽</span>-->
-  <!--              </div>-->
-  <!--            </div>-->
+            <div class="cards-item">
+              <div class="cards-item__image">
+                <div class="cards-item__badge">Скидка -13%</div>
+                <img src="assets/img/products/1.png" alt="">
+              </div>
+              <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+              <div class="cards-item__old-price">219,99 ₽</div>
+              <div class="cards-item__price">99,99 ₽</div>
+            </div>
 
-  <!--          </div>-->
-  <!--        </div>-->
-  <!--      </div>-->
+            <div class="cards-item">
+              <div class="cards-item__image">
+                <div class="cards-item__badge">Скидка -13%</div>
+                <img src="assets/img/products/1.png" alt="">
+              </div>
+              <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+              <div class="cards-item__old-price">219,99 ₽</div>
+              <div class="cards-item__price">99,99 ₽</div>
+            </div>
 
-  <!--      <div class="col-12 col-md-6 col-lg-3 mb-4">-->
-  <!--        <div class="card card-product">-->
-  <!--          <div class="card-body">-->
-  <!--            <div class="text-center position-relative">-->
-  <!--              &lt;!&ndash; badge &ndash;&gt;-->
-  <!--              <div class=" position-absolute top-0 start-0">-->
-  <!--                <span class="badge bg-success">Скидка -13%</span>-->
-  <!--              </div>-->
-  <!--              &lt;!&ndash; img &ndash;&gt;-->
-  <!--              <a href="#!" tabindex="-1"><img src="assets/img/products/2.png" alt="" class="mb-3 img-fluid"></a>-->
-  <!--              &lt;!&ndash; action btn &ndash;&gt;-->
-  <!--              <div class="card-product-action">-->
-  <!--                <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal" tabindex="-1"><i-->
-  <!--                  class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View"-->
-  <!--                  data-bs-original-title="Quick View"></i></a>-->
-  <!--                <a href="shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist"-->
-  <!--                   data-bs-original-title="Wishlist" tabindex="-1"><i class="bi bi-heart"></i></a>-->
-  <!--                <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare"-->
-  <!--                   data-bs-original-title="Compare" tabindex="-1"><i class="bi bi-arrow-left-right"></i></a>-->
-  <!--              </div>-->
-  <!--            </div>-->
+            <div class="cards-item">
+              <div class="cards-item__image">
+                <div class="cards-item__badge">Скидка -13%</div>
+                <img src="assets/img/products/2.png" alt="">
+              </div>
+              <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+              <div class="cards-item__old-price">219,99 ₽</div>
+              <div class="cards-item__price">99,99 ₽</div>
+            </div>
 
-  <!--            <h2 class="prod-title">-->
-  <!--              Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г-->
-  <!--            </h2>-->
+            <div class="cards-item">
+              <div class="cards-item__image">
+                <div class="cards-item__badge">Скидка -13%</div>
+                <img src="assets/img/products/3.png" alt="">
+              </div>
+              <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+              <div class="cards-item__old-price">219,99 ₽</div>
+              <div class="cards-item__price">99,99 ₽</div>
+            </div>
 
-  <!--            <div class="d-flex justify-content-between align-items-center mt-3">-->
-  <!--              <div>-->
-  <!--                <span class="card-price">99,99 ₽</span>-->
-  <!--              </div>-->
-  <!--            </div>-->
+          </div>
+        </div>
+      </div>
 
-  <!--          </div>-->
-  <!--        </div>-->
-  <!--      </div>-->
-
-  <!--      <div class="col-12 col-md-6 col-lg-3 mb-4">-->
-  <!--        <div class="card card-product">-->
-  <!--          <div class="card-body">-->
-  <!--            <div class="text-center position-relative">-->
-  <!--              &lt;!&ndash; badge &ndash;&gt;-->
-  <!--              <div class=" position-absolute top-0 start-0">-->
-  <!--                <span class="badge bg-success">Скидка -13%</span>-->
-  <!--              </div>-->
-  <!--              &lt;!&ndash; img &ndash;&gt;-->
-  <!--              <a href="#!" tabindex="-1"><img src="assets/img/products/3.png" alt="" class="mb-3 img-fluid"></a>-->
-  <!--              &lt;!&ndash; action btn &ndash;&gt;-->
-  <!--              <div class="card-product-action">-->
-  <!--                <a href="#!" class="btn-action" data-bs-toggle="modal" data-bs-target="#quickViewModal" tabindex="-1"><i-->
-  <!--                  class="bi bi-eye" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Quick View"-->
-  <!--                  data-bs-original-title="Quick View"></i></a>-->
-  <!--                <a href="shop-wishlist.html" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Wishlist"-->
-  <!--                   data-bs-original-title="Wishlist" tabindex="-1"><i class="bi bi-heart"></i></a>-->
-  <!--                <a href="#!" class="btn-action" data-bs-toggle="tooltip" data-bs-html="true" aria-label="Compare"-->
-  <!--                   data-bs-original-title="Compare" tabindex="-1"><i class="bi bi-arrow-left-right"></i></a>-->
-  <!--              </div>-->
-  <!--            </div>-->
-
-  <!--            <h2 class="prod-title">-->
-  <!--              Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г-->
-  <!--            </h2>-->
-
-  <!--            <div class="d-flex justify-content-between align-items-center mt-3">-->
-  <!--              <div>-->
-  <!--                <span class="card-price">99,99 ₽</span>-->
-  <!--              </div>-->
-  <!--            </div>-->
-
-  <!--          </div>-->
-  <!--        </div>-->
-  <!--      </div>-->
-
-  <!--    </div>-->
-
-  <!--  </div>-->
-  <!--</section>-->
-
+    </div>
+  </section>
 
   <script src="assets/js/menu.js"></script>
 
@@ -319,13 +316,16 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      pagination: {
-        el: ".swiper-pagination",
-      },
+      cssMode: true,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
     });
   </script>
 
