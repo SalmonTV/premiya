@@ -57,6 +57,12 @@
             <a href="#" class="slider-item__button">Подробнее</a>
           </div>
           <div class="slider-item__image">
+            <span class="slider-item__label">
+              <span class="slider-item__label-old">
+                399 ₽
+              </span>
+              239 ₽
+            </span>
             <img src="assets/img/svg/slider/banana.svg" alt="Banana" />
           </div>
         </div>
@@ -290,10 +296,9 @@
     <div class="container">
       <div class="block-title">Магазины</div>
     </div>
-      <div class="maps">
-        <div class="maps-content">
-          <img src="assets/img/map.png" alt="">
-        </div>
+    <div class="maps">
+      <div class="maps-content">
+        <img src="assets/img/map.png" alt="">
       </div>
     </div>
   </section>
@@ -301,14 +306,55 @@
   <section class="questions-section">
     <div class="container">
       <div class="block-title">Часто задаваемые вопросы</div>
-    </div>
       <div class="questions">
+        <div class="questions-tabs">
+          <div class="questions-tabs__button">Программа лояльности</div>
+          <div class="questions-tabs__button">Карта</div>
+          <div class="questions-tabs__button">Бонусы</div>
+          <div class="questions-tabs__button">Предложения</div>
+        </div>
         <div class="questions-content">
-          
+          <div class="accordion" id="accordion-1" style="max-width: 40rem; margin: 1rem auto 2rem;">
+
+            <div class="accordion__item">
+              <div class="accordion__header">
+                Что дает участие в бонусной программе ПРЕМИЯ?
+              </div>
+              <div class="accordion__body">
+              Содержимое 2
+              </div>
+            </div>
+            
+            <div class="accordion__item accordion__item_show">
+              <div class="accordion__header">
+                Как стать участником программы лояльности ПРЕМИЯ?
+              </div>
+              <div class="accordion__body">
+                «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
+                Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
+                Теперь Вы можете влиять на размер Премии и получать больше бонусов.
+                «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+              </div>
+            </div>
+
+            <div class="accordion__item">
+              <div class="accordion__header">
+                Сколько акционных товаров?
+              </div>
+              <div class="accordion__body">
+              Содержимое 2
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-    </div>
+    </div> 
   </section>
+
+  <div class="container">
+    <div class="divider"></div>
+  </div>
 
 <footer class="footer">
   <div class="container">
@@ -324,6 +370,7 @@
 </footer>
 
 <script src="assets/js/menu.js"></script>
+<script src="assets/js/accordion.js"></script>
 
 </body>
 
