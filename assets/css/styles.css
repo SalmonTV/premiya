@@ -169,31 +169,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'HouschkaRoundedAlt 9';
 }
 
-.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-    display: flex;
-    bottom: 45px;
-    left: 0;
-    width: 100%;
-}
-
-.swiper-button-next {
-    right: 0px;
-}
-
-.swiper-button-prev {
-    right: 60px;
-}
-
-.swiper-pagination-bullet {
-    background: rgba(255, 255, 255, 0.3);
-}
- 
-.swiper-pagination-bullet-active {
-    background: white;
-    border-radius: 15px;
-    width: 50px;
-}
-
 .slider-section {
     background: #912F46;
     border-radius: 0 0 50px 50px;
@@ -393,6 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .app-section {
     background: #CA6982;
+    border-radius: 0 0 50px 50px;
 }
 
 .app {
@@ -544,6 +520,90 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 29px;
 }
 
+.banner-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.banner {
+    background: #912F46;
+    border-radius: 40px;
+    padding: 5rem;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.banner::before {
+    position: absolute;
+    content:url(../img/svg/banner.svg);
+    right: 0;
+    bottom: -10px;
+    z-index: -1;
+}
+
+.banner-text {
+    font-family: 'HouschkaRoundedAlt 9';
+    font-size: 40px;
+    line-height: 45px;
+    color: white;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.banner-content {
+    display: grid;
+}
+
+.banner-bottom {
+    font-family: 'HouschkaRoundedAlt 9';
+    width: 16rem;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px 0;
+    background: #FFFFFF;
+    border-radius: 12px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.banner-bottom:hover {
+    opacity: 0.7;
+}
+
+.banner-image img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 466px;
+    border-radius: 0 40px 40px 0;
+}
+
+.maps-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block-title {
+    font-family: 'HouschkaRoundedAlt 9';
+    font-size: 56px;
+    line-height: 65px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.maps-content img{
+    max-width: 100%;
+}
+
+.questions-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -557,6 +617,19 @@ html {
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+.footer {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    background: #E8EBED;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0;
 }
 
 .container {
