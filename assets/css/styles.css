@@ -656,7 +656,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 50px;
     padding-bottom: 50px;
 }
- 
+
 .accordion {
     display: flex;
     flex-direction: column;
@@ -670,7 +670,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0px 0px 54.1667px rgba(33, 33, 33, 0.15);
     border-radius: 12px;
 }
-  
+
 .accordion__header {
     font-family: 'HouschkaRoundedAlt 5';
     font-size: 18px;
@@ -699,7 +699,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .accordion__item_show .accordion__header::after {
-    transform: rotate(-180deg); 
+    transform: rotate(-180deg);
 }
 
 .accordion__item_hidden .accordion__header {
@@ -823,11 +823,11 @@ ul li {
 }
 
 .mobile-nav {
-    display: none;
+    /*display: none;*/
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s;
-    /*display: flex;*/
+    display: flex;
 }
 
 .header .nav {
@@ -882,7 +882,7 @@ ul li {
         padding: 3rem;
     }
 }
-    
+
 @media (max-width: 991px) {
 
     .container {
@@ -985,7 +985,6 @@ ul li {
         display: grid;
         justify-items: center;
     }
-
 
     .mobile-menu-icon {
         display: flex;
