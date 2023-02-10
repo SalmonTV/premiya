@@ -186,9 +186,6 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
 }
 
-.slider {
-}
-
 .slider-item {
     display: flex;
     grid-gap: 74px;
@@ -243,12 +240,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .slider-item__button:hover {
     opacity: 0.7;
-}
-
-.slider-item__image {
-}
-
-.slider-item__image img {
 }
 
 .slider-item__label {
@@ -409,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     padding-top: 100px;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
 }
 
 .app-item__title {
@@ -465,12 +456,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .app-banner-section {
-    position: relative;
-    top: -400px;
+    margin-top: -30%;
+    margin-bottom: 15%;
 }
 
-.app-banner__image {
-    max-width: 100%;
+.app-banner {
+    background: #A3BF27;
+    border-radius: 60px;
+    position: relative;
+    z-index: 0;
+    height: 650px;
+    overflow: hidden;
+    padding: 80px 150px;
+}
+
+.app-banner__img {
+    width: 882px;
+    position: absolute;
+    bottom: -31.3%;
+    left: 3%;
+}
+
+.app-banner::before {
+    position: absolute;
+    content: url(../img/peoples.svg);
+    right: 0;
+    bottom: -10px;
+    z-index: -1;
+}
+
+.app-banner__text {
+    font-family: 'HouschkaRoundedAlt 9';
+    font-size: 56px;
+    line-height: 65px;
+    color: #FFFFFF;
+    width: 54%;
 }
 
 .products {
@@ -954,7 +974,7 @@ html {
 }
 
 .container-xl {
-    max-width: 1340px;
+    max-width: 1400px;
     margin: 0 auto;
     position: relative;
     padding-left: 20px;
@@ -1013,9 +1033,6 @@ ul li {
     display: block;
 }
 
-.logo__image {
-}
-
 .mobile-nav {
     display: none;
     opacity: 0;
@@ -1029,9 +1046,6 @@ ul li {
     grid-gap: 20px;
 }
 
-.nav__item {
-}
-
 .nav__link {
     display: block;
     padding: 10px;
@@ -1042,9 +1056,6 @@ ul li {
 
 .nav__link:hover {
     opacity: 0.7;
-}
-
-.nav__link--active {
 }
 
 @media (max-width: 1200px) {
@@ -1105,6 +1116,44 @@ ul li {
     .app-item__title:before {
         top: -120px;
         left: 0;
+    }
+
+    .app-banner-section {
+        margin-top: -50%;
+        margin-bottom: 15%;
+    }
+
+    .app-banner {
+        background: #A3BF27;
+        border-radius: 60px;
+        position: relative;
+        z-index: 0;
+        height: 650px;
+        overflow: hidden;
+        padding: 80px;
+    }
+
+    .app-banner::before {
+        position: absolute;
+        content: url(../img/peoples.svg);
+        right: 0;
+        bottom: -10px;
+        z-index: -1;
+    }
+
+    .app-banner__text {
+        font-family: 'HouschkaRoundedAlt 9';
+        font-size: 68px;
+        line-height: 80px;
+        color: #FFFFFF;
+        width: 54%;
+    }
+
+    .app-banner__img {
+        width: 600px;
+        position: absolute;
+        bottom: -20%;
+        left: 2%;
     }
 
     .banner {
@@ -1309,6 +1358,45 @@ ul li {
 
     .app-item__image img {
         width: 290px;
+    }
+
+    .app-banner-section {
+        margin-top: -60%;
+        margin-bottom: 25%;
+    }
+
+    .app-banner {
+        background: #A3BF27;
+        border-radius: 60px;
+        position: relative;
+        z-index: 0;
+        height: 350px;
+        overflow: hidden;
+        padding: 45px;
+    }
+
+    .app-banner::before {
+        position: absolute;
+        content: url(../img/peoples.svg);
+        right: auto;
+        bottom: -10px;
+        z-index: -1;
+    }
+
+    .app-banner__text {
+        font-family: 'HouschkaRoundedAlt 9';
+        font-size: 45px;
+        line-height: 48px;
+        color: #FFFFFF;
+        width: 100%;
+        text-align: center;
+    }
+
+    .app-banner__img {
+        width: 360px;
+        position: absolute;
+        bottom: -31.3%;
+        left: 3%;
     }
 
     .cards {
