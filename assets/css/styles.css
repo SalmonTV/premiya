@@ -628,33 +628,151 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%;
 }
 
-.questions {
-    display: flex;
-    justify-content: space-between;
-    grid-gap: 40px;
-}
-
-.questions-tabs {
+.tabs__nav{
     display: flex;
     flex-direction: column;
     grid-gap: 15px;
     width: 24rem;
 }
 
-.questions-tabs__button {
-    border: 1px solid rgba(232, 235, 237, 1);
-    padding: 15px 20px;
-    border-radius: 15px;
+.socials {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 20px;
 }
 
-.questions-tabs__button:hover {
-    border: 1px solid #912F46;
+.social-content {
+    padding-left: 0px;
+}
+
+.socials {
+    padding-top: 10px;
+}
+
+.socials li {
+    display: inline-block;
+}
+
+.socials li a {
+    color: #000;
+    border-radius: 6px;
+    list-style-type: none;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 1%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: ease .3s;
+}
+
+.socials li a:hover {
+    border: 1px solid #000;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 50px;
+}
+
+.info-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.info-columns {
+    display: flex;
+    grid-gap: 50px;
+    margin-bottom: 25px;
+}
+
+.info-column__item-logo {
+    height: 36px;
+}
+
+.info-title {
+    font-family: 'HouschkaRoundedAlt 9';
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 5px;
+}
+
+.info-description {
+    font-family: 'HouschkaRoundedAlt 5';
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.info__logo {
+    margin-bottom: 30px;
+    width: 152px;
+}
+
+.info-text__description {
+    font-family: 'HouschkaRoundedAlt 5';
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.info-text__phone {
+    font-family: 'HouschkaRoundedAlt 9';
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+.info-menu {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+}
+
+.info-menu__link {
+    font-family: 'HouschkaRoundedAlt 5';
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.info-menu__link:hover {
     color: #912F46;
 }
 
+.info-app__buttons {
+    display: flex;
+    grid-gap: 20px;
+}
+
+.info-app__buttons a {
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.info-app__buttons a:hover {
+    opacity: 0.7;
+}
+
+.info-app__buttons img {
+    height: 40px;
+}
+
 .questions-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .accordion {
@@ -727,6 +845,41 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 40px;
+}
+
+.tabs__btn {
+    border: 1px solid rgba(232, 235, 237, 1);
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.tabs__btn_active {
+    border: 1px solid #912F46;
+    color: #912F46;
+}
+
+.tabs__btn:not(.tabs__btn_active):hover,
+.tabs__btn:not(.tabs__btn_active):focus {
+    border: 1px solid #912F46;
+    color: #912F46;
+}
+
+.tabs__content {
+    padding: 0; 
+}
+
+.tabs__pane {
+    display: none;
+}
+
+.tabs__pane_show {
+    display: block;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -756,7 +909,9 @@ html {
 }
 
 .divider {
-    border: 1px solid #E8EBED;
+    height: 1px;
+    border: none;
+    background: #E8EBED;
 }
 
 .container {
@@ -1170,7 +1325,14 @@ ul li {
         flex-direction: column;
     }
 
-    .questions-tabs {
+    .tabs {
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 40px;
+        flex-direction: column;
+    }
+
+    .tabs__nav{
         display: flex;
         flex-direction: column;
         grid-gap: 15px;
@@ -1182,6 +1344,31 @@ ul li {
         flex-direction: column;
         grid-gap: 15px;
         width: 100%;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        grid-gap: 50px;
+        flex-direction: column;
+    }
+
+    .info-content {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .info-app__buttons {
+        display: flex;
+        grid-gap: 20px;
+        flex-direction: column;
+    }
+
+    .info-app__buttons img {
+        height: 60px;
     }
 
 }
