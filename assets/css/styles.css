@@ -169,6 +169,76 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'HouschkaRoundedAlt 9';
 }
 
+.swiper-horizontal>.banner-slider .swiper-pagination-bullets, .banner-slider .swiper-pagination-bullets.swiper-pagination-horizontal, .banner-slider .swiper-pagination-custom, .banner-slider .swiper-pagination-fraction {
+    bottom: 35px;
+    left: 0;
+    width: auto;
+}
+
+.swiper-horizontal>.banner-slider .swiper-pagination-bullets .swiper-pagination-bullet, .banner-slider .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 7.5px;
+}
+
+.banner-slider .swiper-pagination-bullet {
+    background: white;
+    opacity: 0.3;
+}
+
+.banner-slider .swiper-pagination-bullet-active {
+    background: white;
+    opacity: 1;
+    width: 50px;
+    border-radius: 15px;
+}
+
+.banner-slider .swiper-button-next, .banner-slider .swiper-button-prev {
+    position: absolute;
+    top: 93.4%;
+    width: 50px;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.banner-slider .swiper-button-prev, .banner-slider  .swiper-rtl .swiper-button-next {
+    left: auto;
+    right: 80px;
+}
+
+.banner-slider .swiper-button-next:after, .banner-slider .swiper-rtl .swiper-button-prev:after {
+    content:url(../img/svg/slider/next.svg);
+}
+
+.banner-slider .swiper-button-prev:after, .banner-slider .swiper-rtl .swiper-button-next:after {
+    content:url(../img/svg/slider/prev.svg);
+}
+
+.product-slider .swiper-button-next, .product-slider .swiper-button-prev {
+    position: absolute;
+    top: 6%;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    color: #000000;
+    width: 30px;
+}
+
+.product-slider .swiper-button-prev, .product-slider .swiper-rtl .swiper-button-next {
+    left: auto;
+    right: 7%;
+}
+
+.product-slider .swiper-button-next:after, .product-slider .swiper-rtl .swiper-button-prev:after {
+    content:url(../img/svg/slider/right.svg);
+}
+
+.product-slider .swiper-button-prev:after, .product-slider .swiper-rtl .swiper-button-next:after {
+    content:url(../img/svg/slider/left.svg);
+}
+
 .slider-section {
     background: #912F46;
     border-radius: 0 0 50px 50px;
@@ -245,7 +315,6 @@ h1, h2, h3, h4, h5, h6 {
 .slider-item__label {
     right: 8%;
     top: 25%;
-    display: inline-block;
     padding: 0.35em 0.65em;
     color: #fff;
     background: #D50032;
@@ -495,7 +564,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .products {
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .products-content {
@@ -503,6 +571,11 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     margin-bottom: 40px;
 }
+
+.products-logo {
+    position: absolute;
+    top: 0%;
+} 
 
 .arrows {
     display: flex;
@@ -520,11 +593,13 @@ h1, h2, h3, h4, h5, h6 {
 .cards {
     display: flex;
     grid-gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .cards-item {
     background: #FFFFFF;
-    box-shadow: 0px 8px 30px #e8ebed;
+    /* box-shadow: 0px 8px 30px #e8ebed; */
     border: 0;
     border-radius: 30px;
     padding: 15px;
@@ -885,10 +960,18 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid rgba(232, 235, 237, 1);
     padding: 15px 20px;
     border-radius: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 .tabs__btn_active {
     border: 1px solid #912F46;
+    color: #912F46;
+}
+
+.tabs__btn_active::after {
+    content: "•";
     color: #912F46;
 }
 
@@ -1176,6 +1259,18 @@ ul li {
 }
 
 @media (max-width: 767px) {
+    
+    .banner-slider .swiper-button-next, .banner-slider .swiper-button-prev {
+        position: absolute;
+        top: 95.6%;
+        width: 50px;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+    }
 
     .slider-item {
         flex-direction: column;
@@ -1399,12 +1494,6 @@ ul li {
         left: 3%;
     }
 
-    .cards {
-        display: flex;
-        grid-gap: 20px;
-        flex-direction: column;
-    }
-
     .banner {
         background: #912F46;
         border-radius: 40px;
@@ -1496,6 +1585,16 @@ ul li {
 
     .info-app__buttons img {
         height: 60px;
+    }
+
+    .products-logo {
+        position: absolute;
+        top: 2%;
+    }
+
+    .product-slider .swiper-button-prev, .product-slider .swiper-rtl .swiper-button-next {
+        left: auto;
+        right: 20%;
     }
 
 }
