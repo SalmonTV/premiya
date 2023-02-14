@@ -1,6 +1,6 @@
 var swiper = new Swiper(".banner-slider", {
     autoplay: {
-        delay: 5000,
+        delay: 100000,
         disableOnInteraction: false,
       },
     pagination: {
@@ -31,7 +31,7 @@ if (window.innerWidth > 767) {
             prevEl: ".swiper-button-prev",
         },
     });
-  } else {
+  } else if (window.innerWidth < 767) {
     var swiper = new Swiper(".product-slider", {
         cssMode: true,
         scrollbar: {
