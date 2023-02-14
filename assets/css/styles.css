@@ -273,6 +273,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+.slider-item__date::before {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid white;
+    width: 30px;
+    margin-right: 10px;
+    transform: translateY(-2px);
+}
+
 .slider-item__date {
     font-size: 14px;
     line-height: 17px;
@@ -449,7 +458,7 @@ h1, h2, h3, h4, h5, h6 {
 .loyal-footer {
     display: flex;
     justify-content: center;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
 }
 
 .loyal-footer__description {
