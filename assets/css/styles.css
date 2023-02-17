@@ -1614,3 +1614,27 @@ ul li {
     }
 
 }
+
+@media (max-width: 372px) {
+
+    section {
+        width: 370px;
+    }
+
+    .container {
+        width: 370px;
+    }
+
+}
+
+@media (max-width: 340px) {
+
+    section {
+        width: 370px;
+    }
+
+    .container {
+        width: 370px;
+    }
+
+}
