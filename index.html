@@ -18,10 +18,10 @@
 
   <div class="mobile-nav" id="mobile-nav">
     <button class="mobile-menu-close" id="mobile-menu-close-button">
-      <img src="./assets/img/svg/menu.svg" alt="Close" />
+      <img src="./assets/img/svg/menu-close.svg" alt="Close" />
     </button>
     <ul class="nav _nav--mobile">
-      <li class="nav__item"><a class="nav__link _nav__link--active" href="#about">О программе</a></li>
+      <li class="nav__item"><a class="nav__link" href="#about">О программе</a></li>
       <li class="nav__item"><a class="nav__link" href="#app">Приложение</a></li>
       <li class="nav__item"><a class="nav__link" href="#sales">Акции</a></li>
       <li class="nav__item"><a class="nav__link" href="#shops">Магазины</a></li>
@@ -38,7 +38,7 @@
         <img src="./assets/img/svg/menu.svg" alt="Menu" />
       </button>
       <ul class="nav">
-        <li class="nav__item"><a class="nav__link _nav__link--active" href="#about">О программе</a></li>
+        <li class="nav__item"><a class="nav__link" href="#about">О программе</a></li>
         <li class="nav__item"><a class="nav__link" href="#app">Приложение</a></li>
         <li class="nav__item"><a class="nav__link" href="#sales">Акции</a></li>
         <li class="nav__item"><a class="nav__link" href="#shops">Магазины</a></li>
@@ -119,8 +119,8 @@
         </div>
 
         <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
 
     </div>
@@ -144,7 +144,7 @@
         <div class="loyal-item">
           <div class="loyal-item__content-card">
 
-            <div class="loyal-item__card">
+            <div class="loyal-item__card-1">
               <div class="loyal-item__card-container">
                 <div class="loyal-item__card-icon"><img src="./assets/img/svg/loyal/1.svg"></div>
                 <div class="loyal-item__card-title">Просто так</div>
@@ -154,7 +154,7 @@
               </div>
             </div>
 
-            <div class="loyal-item__card">
+            <div class="loyal-item__card-2">
               <div class="loyal-item__card-container">
                 <div class="loyal-item__card-icon"><img src="./assets/img/svg/loyal/2.svg"></div>
                 <div class="loyal-item__card-title">Для друзей</div>
@@ -167,7 +167,7 @@
               </div>
             </div>
 
-            <div class="loyal-item__card">
+            <div class="loyal-item__card-3">
               <div class="loyal-item__card-container">
                 <div class="loyal-item__card-icon"><img src="./assets/img/svg/loyal/3.svg"></div>
                 <div class="loyal-item__card-title">С любовью</div>
@@ -237,64 +237,76 @@
             
             <div class="swiper-wrapper">
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
             </div>
@@ -318,64 +330,76 @@
 
             <div class="swiper-wrapper">
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
-              <div class="swiper-slide cards-item">
-                <div class="cards-item__image">
-                  <div class="cards-item__badge">Скидка -13%</div>
-                  <img src="./assets/img/products/1.png" alt="">
+              <div class="swiper-slide">
+                <div class="cards-item">
+                  <div class="cards-item__image">
+                    <div class="cards-item__badge">Скидка -13%</div>
+                    <img src="./assets/img/products/1.png" alt="">
+                  </div>
+                  <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
+                  <div class="cards-item__old-price">219,99 ₽</div>
+                  <div class="cards-item__price">99,99 ₽</div>
                 </div>
-                <div class="cards-item__title">Шоколад молочный Organic Chocolate с жареным кокосом 32%, 100г</div>
-                <div class="cards-item__old-price">219,99 ₽</div>
-                <div class="cards-item__price">99,99 ₽</div>
               </div>
 
             </div>
@@ -427,146 +451,110 @@
                 <div class="accordion" id="accordion-1">
                   <div class="accordion__item accordion__item_show">
                     <div class="accordion__header">
-                      Что дает участие в бонусной программе ПРЕМИЯ?
+                      Пункт 1.1
                     </div>
                     <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+                      <div class="accordion__content">Текст пункта</div>
                     </div>
                   </div>
                   <div class="accordion__item">
                     <div class="accordion__header">
-                      Как стать участником программы лояльности ПРЕМИЯ?
+                      Пункт 1.2
                     </div>
                     <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+                      <div class="accordion__content">Текст пункта</div>
                     </div>
                   </div>
                   <div class="accordion__item">
                     <div class="accordion__header">
-                      Сколько акционных товаров?
+                      Пункт 1.3
                     </div>
                     <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+                      <div class="accordion__content">Текст пункта</div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="tabs__pane">
-                <div class="accordion" id="accordion-1">
-                  <div class="accordion__item">
+                <div class="accordion" id="accordion-2">
+                  <div class="accordion__item accordion__item_show">
                     <div class="accordion__header">
-                      Что дает участие в бонусной программе ПРЕМИЯ?
+                      Пункт 2.1
                     </div>
                     <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+                     <div class="accordion__content">Текст пункта</div>
                     </div>
                   </div>
                   <div class="accordion__item">
                     <div class="accordion__header">
-                      Как стать участником программы лояльности ПРЕМИЯ?
+                      Пункт 2.2
                     </div>
                     <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+                     <div class="accordion__content">Текст пункта</div>
                     </div>
                   </div>
                   <div class="accordion__item">
                     <div class="accordion__header">
-                      Сколько акционных товаров?
+                      Пункт 2.3
                     </div>
                     <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tabs__pane" id="content-3">
-                <div class="accordion" id="accordion-1">
-                  <div class="accordion__item">
-                    <div class="accordion__header">
-                      Что дает участие в бонусной программе ПРЕМИЯ?
-                    </div>
-                    <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
-                    </div>
-                  </div>
-                  <div class="accordion__item">
-                    <div class="accordion__header">
-                      Как стать участником программы лояльности ПРЕМИЯ?
-                    </div>
-                    <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
-                    </div>
-                  </div>
-                  <div class="accordion__item">
-                    <div class="accordion__header">
-                      Сколько акционных товаров?
-                    </div>
-                    <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+                     <div class="accordion__content">Текст пункта</div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="tabs__pane">
-                <div class="accordion" id="accordion-1">
-                  <div class="accordion__item">
+                <div class="accordion" id="accordion-3">
+                  <div class="accordion__item accordion__item_show">
                     <div class="accordion__header">
-                      Что дает участие в бонусной программе ПРЕМИЯ?
+                      Пункт 3.1
                     </div>
                     <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+                     <div class="accordion__content">Текст пункта</div>
                     </div>
                   </div>
                   <div class="accordion__item">
                     <div class="accordion__header">
-                      Как стать участником программы лояльности ПРЕМИЯ?
+                      Пункт 3.2
                     </div>
                     <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+                     <div class="accordion__content">Текст пункта</div>
                     </div>
                   </div>
                   <div class="accordion__item">
                     <div class="accordion__header">
-                      Сколько акционных товаров?
+                      Пункт 3.3
                     </div>
                     <div class="accordion__body">
-                      «Премия» - это программа лояльности, которая теперь действует в гастрономах «Красный Яр» и дискаунтерах «Батон».
-                      Участники программы лояльности получают Премию до 100% за покупки в виде бонусов, которые возвращаются на карту. Размер Премии зависит от частоты покупок, совершенных в прошлом месяце.
-                      Теперь Вы можете влиять на размер Премии и получать больше бонусов.
-                      «Премия» стала удобнее и ближе, вы можете зарегистрироваться в программе, оформив виртуальную карту.
+                     <div class="accordion__content">Текст пункта</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs__pane">
+                <div class="accordion" id="accordion-4">
+                  <div class="accordion__item accordion__item_show">
+                    <div class="accordion__header">
+                      Пункт 4.1
+                    </div>
+                    <div class="accordion__body">
+                     <div class="accordion__content">Текст пункта</div>
+                    </div>
+                  </div>
+                  <div class="accordion__item">
+                    <div class="accordion__header">
+                      Пункт 4.2
+                    </div>
+                    <div class="accordion__body">
+                     <div class="accordion__content">Текст пункта</div>
+                    </div>
+                  </div>
+                  <div class="accordion__item">
+                    <div class="accordion__header">
+                      Пункт 4.3
+                    </div>
+                    <div class="accordion__body">
+                     <div class="accordion__content">Текст пункта</div>
                     </div>
                   </div>
                 </div>

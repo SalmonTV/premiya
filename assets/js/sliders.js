@@ -1,6 +1,7 @@
-var swiper = new Swiper(".banner-slider", {
+var mySwiper = new Swiper(".banner-slider", {
+    cssMode: true,
     autoplay: {
-        delay: 100000,
+        delay: 5000,
         disableOnInteraction: false,
       },
     pagination: {
@@ -10,7 +11,7 @@ var swiper = new Swiper(".banner-slider", {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
-    },
+    }
 });
 
 if (window.innerWidth > 767) {
@@ -18,14 +19,10 @@ if (window.innerWidth > 767) {
         cssMode: true,
         scrollbar: {
             el: ".swiper-scrollbar",
-            hide: true, 
+            hide: false, 
         },
         slidesPerView: 4,
         spaceBetween: 20,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
@@ -36,14 +33,10 @@ if (window.innerWidth > 767) {
         cssMode: true,
         scrollbar: {
             el: ".swiper-scrollbar",
-            hide: true,
+            hide: false,
         },
         slidesPerView: 1,
         spaceBetween: 20,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
