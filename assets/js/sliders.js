@@ -4,7 +4,7 @@ const bannerSlider = new Swiper('.banner-slider', {
   cssMode: true,
   loop: true,
   autoplay: {
-    delay: 5000,
+    delay: 3000,
     disableOnInteraction: false,
   },
   pagination: {
