@@ -1,9 +1,10 @@
-const delay = 5000;
+const progressCircle = document.querySelector(".swiper-button-next svg");
 
 const bannerSlider = new Swiper('.banner-slider', {
   cssMode: true,
+  loop: true,
   autoplay: {
-    delay,
+    delay: 5000,
     disableOnInteraction: false,
   },
   pagination: {
@@ -14,10 +15,11 @@ const bannerSlider = new Swiper('.banner-slider', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-});
-
-bannerSlider.on('slideChange', function () {
-  window._interval = 0;
+  on: {
+    autoplayTimeLeft(s, time, progress) {
+      progressCircle.style.setProperty("--progress", 1 - progress);
+    }
+  }
 });
 
 if (window.innerWidth > 767) {
@@ -49,18 +51,3 @@ if (window.innerWidth > 767) {
     },
   });
 }
-
-const setProgress = (value) => {
-  document.documentElement.style.setProperty('--slider-progress', `${value}deg`);
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-  setProgress(0);
-  const intervalSpeed = 10;
-  window._interval = 0;
-  setInterval(() => {
-    window._interval += intervalSpeed;
-    const percent = window._interval / delay * 100;
-    setProgress(percent / 100 * 180);
-  }, intervalSpeed);
-});
