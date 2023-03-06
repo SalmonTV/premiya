@@ -2,9 +2,9 @@ const progressCircle = document.querySelector(".swiper-button-next svg");
 
 const bannerSlider = new Swiper('.banner-slider', {
   cssMode: true,
-  loop: true,
+  loop: false,
   autoplay: {
-    delay: 3000,
+    delay: 5000,
     disableOnInteraction: false,
   },
   pagination: {
